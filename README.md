@@ -10,4 +10,6 @@ Steps to run project
 installed required packages mentioned in requirements.txt in local)
 
 
-This model is also deployed to streamlit cloud
+This model is also deployed to streamlit cloud: click following link to access it
+
+https://bneel-iris-model-2024.streamlit.app
