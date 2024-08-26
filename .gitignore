@@ -1,0 +1,70 @@
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+ENV.bak/
+venv.bak/
+
+# FastAPI
+*.db
+*.sqlite3
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
+
+# Test results
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+
+# PyInstaller
+*.spec
+
+# MyPy
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# Rope project settings
+.ropeproject
+
+# Git
+.git/
