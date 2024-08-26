@@ -8,3 +8,6 @@ Steps to run project
 6. you may test the /predict api-endpoint by visiting url/docs
 7. you can run automated test to test the api-endpoint by simply running client.py in your local (ensure you have 
 installed required packages mentioned in requirements.txt in local)
+
+
+This model is also deployed to streamlit cloud
