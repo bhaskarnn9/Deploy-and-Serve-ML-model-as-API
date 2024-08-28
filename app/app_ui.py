@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import joblib
-from sklearn.ensemble import RandomForestClassifier
 
 st.title('Iris model inference')
 st.subheader('Black box testing of ML model using Streamlit')

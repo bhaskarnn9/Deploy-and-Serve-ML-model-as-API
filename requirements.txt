@@ -6,3 +6,10 @@ fastapi~=0.103.0
 requests~=2.32.3
 streamlit~=1.37.1
 pandas~=2.2.2
+pydantic~=2.5.3
+jwt~=2.8.0
+python-decouple~=3.8
+email-validator~=2.2.0
+
+
+
