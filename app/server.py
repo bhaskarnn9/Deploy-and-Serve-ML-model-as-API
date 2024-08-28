@@ -3,16 +3,18 @@ import joblib
 import numpy as np
 import uvicorn
 
+# import and instantiate model
 model = joblib.load('app/model.joblib')
 
 class_names = np.array(['setosa', 'versicolor', 'virginica'])
 
+# create backend web application
 app = FastAPI()
 
 
 @app.get('/')
 def reed_root():
-    return {'message': 'Iris model API'}
+    return {'Welcome to my Iris app'}
 
 
 @app.post('/predict')
